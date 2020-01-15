@@ -1,0 +1,13 @@
+body{
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 4em;
+    font-weight: bolder;
+}
