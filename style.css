@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #1f1f1f;
     color: white;
     font-family: Verdana, Helvetica, Arial, sans-serif;
-    
+
 }
 
 .titulo {
@@ -10,4 +10,15 @@ body{
     margin-top: 5%;
     font-size: 4em;
     font-weight: bolder;
+    user-select: none;
+}
+
+.tituloHTML:hover {
+    color: rgb(241, 101, 45);
+
+}
+
+.tituloCSS:hover {
+    color: rgb(74, 178, 216);
+
 }
