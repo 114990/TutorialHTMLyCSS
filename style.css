@@ -4,9 +4,19 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
+::-moz-selection { /* Texto seleccionado en firefox */
+    color: black;
+    background: whitesmoke;
+}
+  
+::selection { /*Texto seleccionado*/
+    color: black;
+    background: whitesmoke;
+}
+
 .titulo {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 4em;
     font-weight: bolder;
     user-select: none;
@@ -49,11 +59,25 @@ body {
 }
 
 .linkEnTexto {
-    color: #bbbbbb;
+    color: #facab7; /*~30% más claro que el color HTML principal*/
     font-weight: bold;
 }
 
 .linkEnTexto:hover{
     color: white;
     font-weight: bold;
+}
+
+.codigoEjemploHTML{
+    color: #facab7; /*~30% más claro que el color HTML principal*/
+}
+
+.codigoEjemploHTML::-moz-selection { /* Texto seleccionado en firefox */
+    color: black;
+    background:  #facab7;
+}
+  
+.codigoEjemploHTML::selection { /*Texto seleccionado*/
+    color: black;
+    background:  #facab7;
 }

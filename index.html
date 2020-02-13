@@ -4,6 +4,8 @@
 <head>
     <title>Tutorial HTML y CSS</title>
     <meta charset="utf-8">
+    <meta name="author" content="Jose Rodriguez Rivas">
+    <meta name="description" content="El objetivo de este documento es ser un resumido tutorial explicativo de HTML y CSS con ejemplos.">
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +15,8 @@
 
     <div class="subtitulo" id="htmlIndex">¿Qué es <b class="tituloHTML">HTML</b>?</div>
     <div class="texto">
-        <b class="tituloHTML">HTML</b> es el lenguaje de marcas que se emplea para el desarrollo de páginas de internet.
+        <b class="tituloHTML">HTML</b> (<i>Hyper Text Markup Language</i>) es el lenguaje de marcas que se emplea para
+        el desarrollo de páginas de internet.
         <br><br>
         Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla. <b
             class="tituloHTML">HTML</b>
@@ -21,16 +24,86 @@
         listas, tablas, etc.
     </div>
 
-    <div class="subtitulo" id="htmlIndex">Resumida historia de <b class="tituloHTML">HTML</b></div>
+    <div class="subtitulo">Resumida historia de <b class="tituloHTML">HTML</b></div>
     <div class="texto">
-        El origen de <b class="tituloHTML">HTML</b> se remonta a 1980, cuando el físico <b>Tim Berners-Lee</b>, trabajador del
-        <a href="https://home.cern/" class="linkEnTexto">CERN</a> (<i>Organización Europea para la Investigación Nuclear</i>) propuso un nuevo sistema de "hipertexto" para
+        El origen de <b class="tituloHTML">HTML</b> se remonta a 1980, cuando el físico <b>Tim Berners-Lee</b>,
+        trabajador del
+        <a href="https://home.cern/" class="linkEnTexto">CERN</a> (<i>Organización Europea para la Investigación
+            Nuclear</i>) propuso un nuevo sistema de "hipertexto" para
         compartir documentos.
         <br><br>
         Y es que estando como trabajador del CERN se encontró con la problemática de poder facilitar el acceso a la
         información con la que trabajaban desde cualquier ordenador del centro o de otras instituciones que trabajaban
         con ellos.
     </div>
+
+    <div class="subtitulo">Estructura</div>
+    <div class="texto">
+        Esta es la estructura simple de base de un fichero de formato <b class="tituloHTML">html</b>.
+
+        <pre class="codigoEjemploHTML">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+        La <span class="codigoEjemploHTML">&lt;!DOCTYPE html&gt;</span> declaración define que este documentoo es <b
+            class="tituloHTML">HTML</b><b>5</b>.
+        <br>
+        El elemento <span class="codigoEjemploHTML">&lt;head&gt;</span> proveé metadatos (información general) acerca
+        del documento.
+        <br>
+        El elemento <span class="codigoEjemploHTML">&lt;body&gt;</span> contiene la parte visible de la página.
+    </div>
+
+    <div class="subtitulo">Titúlo de la página</div>
+    <div class="texto">
+        El elemento <span class="codigoEjemploHTML">&lt;title&gt;</span> espefícica un título para el página.
+        <br><br>
+        Ejemplo:
+        <pre class="codigoEjemploHTML">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Titúlo de la página&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+    </div>
+
+    <div class="subtitulo">Metadatos</div>
+    <div class="texto">
+        La forma correcta de introducir metadatos en nuestro documento es mediante la etiqueta <span
+            class="codigoEjemploHTML">&lt;meta&gt;</span> dentro de la etiqueta <span
+            class="codigoEjemploHTML">&lt;head&gt;</span>.
+        <br><br>
+        Ejemplo en el que especificamos el conjunto de carácteres que vamos a utilizar:
+        <pre class="codigoEjemploHTML">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+        En este otro ejemplo podemos añadir un autor y una descripción:
+        <pre class="codigoEjemploHTML">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta name="author" content="Jose Rodriguez Rivas"&gt;
+        &lt;meta name="description" content="El objetivo de este documento es ser un resumido tutorial explicativo de HTML y CSS con ejemplos."&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+    </div>
+
 </body>
 
 </html>
