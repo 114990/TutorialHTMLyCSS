@@ -47,3 +47,13 @@ body {
     background-color: #3d3d3d;
     border-left: rgba(241, 101, 45, 1) solid;
 }
+
+.linkEnTexto {
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+.linkEnTexto:hover{
+    color: white;
+    font-weight: bold;
+}
