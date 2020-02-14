@@ -51,6 +51,8 @@ body {
     padding: 1%;
     border-left: rgba(241, 101, 45, 0.5) solid;
     background-color: #2e2e2e;
+    position: relative;
+    overflow: auto;
 }
 
 .texto:hover {
@@ -81,3 +83,17 @@ body {
     color: black;
     background:  #facab7;
 }
+
+
+#imgElementosSemanticos {
+    float: right;
+    margin-left: 1.5%;
+    margin-right: 45%;
+}
+
+
+/*
+#listElementosSemanticos {
+    clear: none;
+}
+*/
