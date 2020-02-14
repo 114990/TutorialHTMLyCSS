@@ -88,12 +88,7 @@ body {
 #imgElementosSemanticos {
     float: right;
     margin-left: 1.5%;
+    margin-top: 1%;
     margin-right: 45%;
+    border: solid black;
 }
-
-
-/*
-#listElementosSemanticos {
-    clear: none;
-}
-*/
