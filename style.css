@@ -60,12 +60,12 @@ body {
     border-left: rgba(241, 101, 45, 1) solid;
 }
 
-.linkEnTexto {
+.linkEnTextoHMTL {
     color: #facab7; /*~30% más claro que el color HTML principal*/
     font-weight: bold;
 }
 
-.linkEnTexto:hover{
+.linkEnTextoHMTL:hover{
     color: white;
     font-weight: bold;
 }
