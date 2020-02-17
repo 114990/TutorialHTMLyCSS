@@ -63,6 +63,10 @@ body {
     border-left: rgba(241, 101, 45, 1) solid;
 }
 
+hr {
+    border-width: 1px;
+}
+
 .linkEnTextoHMTL {
     color: #facab7;
     /*~30% más claro que el color HTML principal*/
