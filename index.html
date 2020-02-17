@@ -430,12 +430,14 @@ Para forzar&lt;br&gt; saltos de línea&lt;br&gt; en un texto,&lt;br&gt; usaremos
         <ul>
             <li><span class="codigoEjemploHTML">&amp;lt;</span> - Muestra el caracter (&lt;).</li>
             <li><span class="codigoEjemploHTML">&amp;gt;</span> - Muestra el caracter (&gt;).</li>
-            <li><span class="codigoEjemploHTML">&amp;nbsp;</span> - En espacio (&nbsp;) que para poner entre palabras que evitará que estás se separen.</li>
+            <li><span class="codigoEjemploHTML">&amp;nbsp;</span> - En espacio (&nbsp;) que para poner entre palabras
+                que evitará que estás se separen.</li>
             <li><span class="codigoEjemploHTML">&amp;amp;</span> - Muestra el caracter (&amp;).</li>
             <li><span class="codigoEjemploHTML">&amp;quot;</span> - Muestra la comilla doble (&quot;).</li>
             <li><span class="codigoEjemploHTML">&amp;apos;</span> - Muestra la comilla simple (&apos;).</li>
             <li><span class="codigoEjemploHTML">&amp;euro;</span> - Muestra el simbolo del euro (&euro;).</li>
-            <li><span class="codigoEjemploHTML">&amp;copy;</span> - Muestra el simbolo de <i>copyright</i> (&copy;).</li>
+            <li><span class="codigoEjemploHTML">&amp;copy;</span> - Muestra el simbolo de <i>copyright</i> (&copy;).
+            </li>
             <li><span class="codigoEjemploHTML">&amp;reg;</span> - Muestra el simbolo de marca registrada (&copy;).</li>
             <li><span class="codigoEjemploHTML">&amp;ntilde;</span> - Muestra la (&ntilde;).</li>
             <li><span class="codigoEjemploHTML">&amp;acute;</span> - Muestra el acento agudo (&acute;).</li>
@@ -446,7 +448,100 @@ Para forzar&lt;br&gt; saltos de línea&lt;br&gt; en un texto,&lt;br&gt; usaremos
     <!--TABLAS-->
     <div class="subtitulo">Tablas</div>
     <div class="texto">
-
+        El elemento HTML <span class="codigoEjemploHTML">&lt;table&gt;</span> representa datos tabulares, es decir,
+        información presentada en una tabla bidimensional compuesta de filas y columnas de celdas que contienen datos.
+        <br>
+        <table id="rubrica">
+            <tr>
+                <th>Categoría</th>
+                <th>Sobresaliente</th>
+                <th>Bueno</th>
+                <th>Regular</th>
+                <th>Pobre</th>
+                <th>No aceptable</th>
+            </tr>
+            <tr>
+                <td class="catData">Estructura del documento HTML<br><b>15%</b></td>
+                <td>Crea varios documentos
+                    diferentes que contienen su
+                    cabecera y cuerpo. La
+                    cabecera contiene
+                    metadatos apropiados; el
+                    cuerpo contiene artículos
+                    y/o secciones de forma
+                    adecuada </td>
+                <td>Crea varios documentos
+                    diferentes con cabecera y
+                    cuerpo pero las cabeceras
+                    de todos no contienen
+                    metadatos apropiados o
+                    no secciona
+                    adecuadamente el cuerpo</td>
+                <td>Crea un único
+                    documento o crea varios
+                    que no tienen una
+                    estructura adecuada o no
+                    contienen metadatos
+                    apropiados</td>
+                <td>Crea un único
+                    documento con
+                    cabecera y cuerpo
+                    pero sin seccionado
+                    o metadatos o éstos
+                    no son apropiados </td>
+                <td>Crea un único
+                    documento sin
+                    estructura o con
+                    una estructura
+                    errónea </td>
+            </tr>
+        </table>
+        <pre class="codigoEjemploHTML">
+&lt;table id="rubrica"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Categoría&lt;/th&gt;
+        &lt;th&gt;Sobresaliente&lt;/th&gt;
+        &lt;th&gt;Bueno&lt;/th&gt;
+        &lt;th&gt;Regular&lt;/th&gt;
+        &lt;th&gt;Pobre&lt;/th&gt;
+        &lt;th&gt;No aceptable&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td class="catData"&gt;Estructura del documento HTML&lt;br&gt;&lt;b&gt;15%&lt;/b&gt;&lt;/td&gt;
+        &lt;td&gt;Crea varios documentos
+            diferentes que contienen su
+            cabecera y cuerpo. La
+            cabecera contiene
+            metadatos apropiados; el
+            cuerpo contiene artículos
+            y/o secciones de forma
+            adecuada &lt;/td&gt;
+        &lt;td&gt;Crea varios documentos
+            diferentes con cabecera y
+            cuerpo pero las cabeceras
+            de todos no contienen
+            metadatos apropiados o
+            no secciona
+            adecuadamente el cuerpo&lt;/td&gt;
+        &lt;td&gt;Crea un único
+            documento o crea varios
+            que no tienen una
+            estructura adecuada o no
+            contienen metadatos
+            apropiados&lt;/td&gt;
+        &lt;td&gt;Crea un único
+            documento con
+            cabecera y cuerpo
+            pero sin seccionado
+            o metadatos o éstos
+            no son apropiados &lt;/td&gt;
+        &lt;td&gt;Crea un único
+            documento sin
+            estructura o con
+            una estructura
+            errónea &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
     </div>
 
 </body>

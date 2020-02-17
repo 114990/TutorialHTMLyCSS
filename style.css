@@ -106,3 +106,25 @@ hr {
 iframe {
     margin-top: 1%;
 }
+
+
+#rubrica th{
+    font-weight: bold;
+    background-color: rgba(194, 214, 155, 1);
+    color: black;
+    border: 1px solid black ;
+    text-align: center;
+    /*margin: 10%;*/
+}
+
+#rubrica td{
+    background-color: white;
+    color: black;
+    border: 1px solid black ;
+    /*margin: 10%;*/
+    padding: 15px;
+}
+
+#rubrica td.catData {
+    background-color:rgba(251, 212, 180, 1);
+}
