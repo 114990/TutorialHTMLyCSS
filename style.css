@@ -30,6 +30,12 @@ body {
     color: rgb(241, 101, 45);
 }
 
+.titulo a#aCSS,
+.titulo a#aCSS:link:visited:active {
+    text-decoration: none;
+    color: rgb(74, 178, 216);
+}
+
 .tituloHTML {
     color: rgb(241, 101, 45);
 }
@@ -45,7 +51,7 @@ body {
     font-weight: bolder;
 }
 
-.texto {
+.textoHTML {
     margin-left: 3.75%;
     margin-right: 3.75%;
     margin-top: 0.5%;
@@ -58,9 +64,27 @@ body {
     overflow: auto;
 }
 
-.texto:hover {
+.textoHTML:hover {
     background-color: #3d3d3d;
     border-left: rgba(241, 101, 45, 1) solid;
+}
+
+.textoCSS {
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+    margin-top: 0.5%;
+    text-align: justify;
+    line-height: 145%;
+    padding: 1%;
+    border-left: rgba(74, 178, 216, 0.5) solid;
+    background-color: #2e2e2e;
+    position: relative;
+    overflow: auto;
+}
+
+.textoCSS:hover {
+    background-color: #3d3d3d;
+    border-left: rgba(74, 178, 216, 1) solid;
 }
 
 hr {
@@ -74,6 +98,17 @@ hr {
 }
 
 .linkEnTextoHMTL:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.linkEnTextoCSS {
+    color: #c0e4f2;
+    /*~30% más claro que el color CSS principal*/
+    font-weight: bold;
+}
+
+.linkEnTextoCSS:hover {
     color: white;
     font-weight: bold;
 }
@@ -95,6 +130,23 @@ hr {
     background: #facab7;
 }
 
+.codigoEjemploCSS {
+    color: #c0e4f2;
+    /*~30% más claro que el color CSS principal*/
+}
+
+.codigoEjemploCSS::-moz-selection {
+    /* Texto seleccionado en firefox */
+    color: black;
+    background: #c0e4f2;
+}
+
+.codigoEjemploCSS::selection {
+    /*Texto seleccionado*/
+    color: black;
+    background: #c0e4f2;
+}
+
 #imgElementosSemanticos {
     float: right;
     margin-left: 1.5%;
@@ -106,7 +158,6 @@ hr {
 iframe {
     margin-top: 1%;
 }
-
 
 #rubrica th{
     font-weight: bold;
