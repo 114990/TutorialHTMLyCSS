@@ -116,6 +116,7 @@ hr {
 .codigoEjemploHTML {
     color: #facab7;
     /*~30% más claro que el color HTML principal*/
+    
 }
 
 .codigoEjemploHTML::-moz-selection {
@@ -145,6 +146,10 @@ hr {
     /*Texto seleccionado*/
     color: black;
     background: #c0e4f2;
+}
+
+pre.codigoEjemploHTML{
+    font-size: 1.25em;
 }
 
 #imgElementosSemanticos {
