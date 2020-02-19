@@ -4,44 +4,32 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 800px){
-    .navLateral {
-        height: 100%;
-        /*width: 50px;*/
-        width: 2.7%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
+.navLateral {
+    height: 100%;
+    /*width: 50px;*/
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-right: 25%;
 }
 
-@media (max-width: 799px){
-    .navLateral {
-        height: 100%;
-        /*width: 50px;*/
-        width: 2%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #eee;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-}
 
 .navLateral * {
-    color: #111;
+    color: rgba(255, 255, 255, 0);
+}
+
+#indiceNav{
+    color: white
 }
 
 .navLateral:hover * {
-    color: white;
+    color: rgba(255, 255, 255, 1);
 }
 
 .navLateral::-webkit-scrollbar {
@@ -50,6 +38,7 @@ body {
 
 .navLateral:hover {
     width: 250px;
+    background-color: rgba(0, 0, 0, 1);
 }
   
 .navLateral a {
