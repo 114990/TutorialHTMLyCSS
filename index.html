@@ -662,9 +662,71 @@ selector {
                     <td style="background-color: hsl(90, 25%, 75%)" class="colorSample">hsl(90, 25%, 75%)</td>
                     <td style="background-color: hsl(90, 75%, 75%)" class="colorSample">hsl(90, 75%, 75%)</td>
                 </tr>  
-            </table>
-            
+            </table>            
         </ul>
+    </div>
+
+    <!--FONDOS (BACKGROUNDS)-->
+    <div class="subtitulo">Fondos (<i>background-color</i>)</div>
+    <div class="textoCSS">
+        
+    </div>
+
+    <!--CLASES-->
+    <div class="subtitulo">Clases</div>
+    <div class="textoCSS">
+        Cuando queremos hacer referencia a alguna clase que hayamos creado en <b class="tituloHTML">HTML</b> debemos usar el punto (.).
+        <pre class="codigoEjemploCSS">
+selector.clase {
+    propiedad: valor;
+}
+
+.colorSample {
+    padding: 5px;
+    color: gray;
+    font-weight: bold;
+}</pre>
+    </div>
+
+    <!--UNIDADES-->
+    <div class="subtitulo">Unidades</div>
+    <div class="textoCSS">
+        En <b class="tituloCSS">CSS</b> hay varias medidas de longuitud aplicables a valores tales como <span class="codigoEjemploCSS">width</span>, <span class="codigoEjemploCSS">margin</span>, <span class="codigoEjemploCSS">padding</span>, <span class="codigoEjemploCSS">font-size</span>, etc. Se ha de escribir de esta forma 3in, 9px, etc.
+        <ul>
+            <li>Medidas absolutas</li>
+                <ul>
+                    <li><span class="codigoEjemploCSS">cm</span> - centimetros.</li>
+                    <li><span class="codigoEjemploCSS">mm</span> - milimetros.</li>
+                    <li><span class="codigoEjemploCSS">in</span> - pulgadas (1in = 96px = 2.54cm).</li>
+                    <li><span class="codigoEjemploCSS">px</span> - píxeles (1px = 1/96 de 1in). <sup>En pantallas con bajo dpi [puntos por pulgada] un 1px será exactamente un píxel pero en pantallas de mayor dpi pueden ser varios píxeles.</sup></li>
+                    <li><span class="codigoEjemploCSS">pt</span> - puntos (1pt = 1/72 de 1in).</li>
+                    <li><span class="codigoEjemploCSS">pc</span> - picas (1pc = 12pt).</li>
+                </ul>
+            <li>Medidas relativas</li>
+                <ul>
+                    <li><span class="codigoEjemploCSS">em</span> - Relativo al tamaño de la fuente del elemento.</li>
+                    <li><span class="codigoEjemploCSS">ex</span> - Relativo a la altura de la 'x' del la fuente.</li>
+                    <li><span class="codigoEjemploCSS">ch</span> - Relativo a la anchura del '0'.</li>
+                    <li><span class="codigoEjemploCSS">rem</span> - Relativo al tamaño de la fuente del elemento raíz.</li>
+                    <li><span class="codigoEjemploCSS">vw</span> - Relativo al porcentaje de anchura de la ventana.</li>
+                    <li><span class="codigoEjemploCSS">vh</span> - Relativo al porcentaje de altura de la ventana.</li>
+                    <li><span class="codigoEjemploCSS">%</span> - Relativo al elemento padre.</li>
+                </ul>
+        </ul>
+    </div>
+
+    <!--FUENTES-->
+    <div class="subtitulo">Fuentes</div>
+    <div class="textoCSS">
+        Para empezar podemos dividir las fuentes en dos tipos <span id="sans-serif">sans-serif</span> y <span id="serif">serif</span>.
+        <br>
+        <img src="serif.gif" alt="serif">
+        <br>
+        También tenemos las fuentes <span id="monospace">monoespaceadas</span> (<i>monospace</i>).
+        <pre class="codigoEjemploCSS">
+p {
+font-family: "Times New Roman", Times, serif;
+}</pre>
     </div>
 
 </body>

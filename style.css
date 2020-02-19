@@ -67,6 +67,12 @@ body {
     border-left: rgba(241, 101, 45, 1) solid;
 }
 
+.textoHTML img {
+    margin-left: 1.25%;
+    margin-top: 0.25%;
+    margin-bottom: 0.75%;
+}
+
 .textoCSS {
     margin-left: 3.75%;
     margin-right: 3.75%;
@@ -83,6 +89,12 @@ body {
 .textoCSS:hover {
     background-color: #3d3d3d;
     border-left: rgba(74, 178, 216, 1) solid;
+}
+
+.textoCSS img {
+    margin-left: 1.25%;
+    margin-top: 0.25%;
+    margin-bottom: 0.75%;
 }
 
 hr {
@@ -187,4 +199,16 @@ iframe {
     padding: 5px;
     color: gray;
     font-weight: bold;
+}
+
+#sans-serif {
+    font-family: "Arial", "Verdana";
+}
+
+#serif {
+    font-family: "Georgia", "Times New Roman";
+}
+
+#monospace {
+    font-family: "Lucida Console", "Courier New";
 }
