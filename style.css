@@ -4,18 +4,36 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
-.navLateral {
-    height: 100%;
-    /*width: 50px;*/
-    width: 2.7%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+@media (min-width: 800px){
+    .navLateral {
+        height: 100%;
+        /*width: 50px;*/
+        width: 2.7%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 799px){
+    .navLateral {
+        height: 100%;
+        /*width: 50px;*/
+        width: 2%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #eee;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
 }
 
 .navLateral * {
