@@ -562,8 +562,8 @@ Para forzar&lt;br&gt; saltos de línea&lt;br&gt; en un texto,&lt;br&gt; usaremos
     <!--¿QUÉ ES CSS?-->
     <div class="subtitulo" id="cssIndex">¿Qué es <b class="tituloCSS">CSS</b>?</div>
     <div class="textoCSS">
-        <i><b class="tituloCSS">C</b>ascading <b class="tituloCSS">S</b>tyle <b
-                class="tituloCSS">S</b>heets</i> o en español "Hojas de estilo en cascada" es un lenguaje creado para
+        <i><b class="tituloCSS">C</b>ascading <b class="tituloCSS">S</b>tyle <b class="tituloCSS">S</b>heets</i> o en
+        español "Hojas de estilo en cascada" es un lenguaje creado para
         aplicar estilos a uno o varios documentos escritos en un lenguaje de marcado.
     </div>
 
@@ -579,7 +579,8 @@ Para forzar&lt;br&gt; saltos de línea&lt;br&gt; en un texto,&lt;br&gt; usaremos
     <!--SINTAXIS CSS-->
     <div class="subtitulo">Sintaxis de <b class="tituloCSS">CSS</b></div>
     <div class="textoCSS">
-        Esta es la sintaxis para CSS que incluye un selector en el que podemos escribir varias declaraciones (propiedad y valor).
+        Esta es la sintaxis para CSS que incluye un selector en el que podemos escribir varias declaraciones (propiedad
+        y valor).
         <pre class="codigoEjemploCSS">
 selector {
     propiedad: valor;
@@ -588,7 +589,83 @@ selector {
 
     <!--ENLAZAR HTML CON CSS-->
     <div class="subtitulo">Enlazar <b class="tituloHTML">HTML</b> con <b class="tituloCSS">CSS</b></div>
-    <div class="textoCSS"> 
+    <div class="textoCSS">
+        Para referenciar el fichero .<b class="tituloCSS">css</b> en <b class="tituloHTML">html</b>
+        usaremos la etiqueta <span class="codigoEjemploHTML">&lt;link&gt;</span> dentro de la etiqueta <span
+            class="codigoEjemploHTML">&lt;head&gt;</span>.
+        <pre class="codigoEjemploHTML">
+&lt;link type="text/css" rel="stylesheet" href="style.css"&gt;</pre>
+    </div>
+
+    <!--COLORES-->
+    <div class="subtitulo">Colores</div>
+    <div class="textoCSS">
+        Hay varias formas de hacer referencia a los colores:
+        <ul>
+            <li>Por nombre: </li>
+            <table>
+                <tr>
+                    <td style="background-color: red" class="colorSample">red</td>
+                    <td style="background-color: orange" class="colorSample">orange</td>
+                    <td style="background-color: yellow" class="colorSample">yellow</td>
+                    <td style="background-color: green" class="colorSample">green</td>
+                    <td style="background-color: blue" class="colorSample">blue</td>
+                    <td style="background-color: purple" class="colorSample">purple</td>
+                    <td style="background-color: white" class="colorSample">white</td>
+                    <td style="background-color: black" class="colorSample">black</td>
+                </tr>  
+            </table>
+            
+            <br>
+
+            <li>HEX: </li>
+            <table>
+                <tr>
+                    <td style="background-color: #000000" class="colorSample">#000000</td>
+                    <td style="background-color: #ff0000" class="colorSample">#ff0000</td>
+                    <td style="background-color: #00ff00" class="colorSample">#00ff00</td>
+                    <td style="background-color: #0000ff" class="colorSample">#0000ff</td>
+                    <td style="background-color: #ffff00" class="colorSample">#ffff00</td>
+                    <td style="background-color: #ff00ff" class="colorSample">#ff00ff</td>
+                    <td style="background-color: #00ffff" class="colorSample">#00ffff</td>
+                    <td style="background-color: #ffffff" class="colorSample">#ffffff</td>
+                </tr>  
+            </table>
+
+            <br>
+
+            <li>RBG[A] (<i>red, green, blue[, alpha]</i>): </li>
+            <table>
+                <tr>
+                    <td style="background-color: rgb(255, 255, 255)" class="colorSample">rgb(255, 255, 255)</td>
+                    <td style="background-color: rgb(0, 0, 0)" class="colorSample">rgb(0, 0, 0)</td>
+                    <td style="background-color: rgb(255, 0, 0)" class="colorSample">rgb(255, 0, 0)</td>
+                    <td style="background-color: rgb(0, 255, 0)" class="colorSample">rgb(0, 255, 0)</td>
+                    <td style="background-color: rgb(0, 0, 255)" class="colorSample">rgb(0, 0, 255)</td>
+                    <td style="background-color: rgba(192, 64, 192, 1)" class="colorSample">rgba(192, 64, 192, 1)</td>
+                    <td style="background-color: rgba(192, 64, 192, 0.5)" class="colorSample">rgba(192, 64, 192, 0.5)</td>
+                    <td style="background-color: rgba(192, 64, 192, 0)" class="colorSample">rgba(192, 64, 192, 0)</td>
+                </tr>  
+            </table>
+            
+            <br>
+
+            <li>HSL[A] (<i>hue, saturation%, lightness%</i>): </li>
+            <table>
+                <tr>
+                    <td style="background-color: hsl(360, 100%, 50%)" class="colorSample">hsl(0, 100%, 50%)</td>
+                    <td style="background-color: hsl(180, 100%, 50%)" class="colorSample">hsl(180, 100%, 50%)</td>
+                    <td style="background-color: hsl(360, 50%, 100%)" class="colorSample">hsl(360, 50%, 100%)</td>
+                    <td style="background-color: hsl(360, 50%, 50%)" class="colorSample">hsl(360, 50%, 50%)</td>
+                    <td style="background-color: hsl(90, 25%, 25%)" class="colorSample">hsl(90, 25%, 25%)</td>
+                    <td style="background-color: hsl(90, 100%, 25%)" class="colorSample">hsl(90, 100%, 25%)</td>
+                    <td style="background-color: hsl(90, 25%, 75%)" class="colorSample">hsl(90, 25%, 75%)</td>
+                    <td style="background-color: hsl(90, 75%, 75%)" class="colorSample">hsl(90, 75%, 75%)</td>
+                </tr>  
+            </table>
+            
+        </ul>
+    </div>
 
 </body>
 

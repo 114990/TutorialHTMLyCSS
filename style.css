@@ -179,3 +179,9 @@ iframe {
 #rubrica td.catData {
     background-color:rgba(251, 212, 180, 1);
 }
+
+.colorSample {
+    padding: 5px;
+    color: gray;
+    font-weight: bold;
+}
