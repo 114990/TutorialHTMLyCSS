@@ -4,35 +4,33 @@ body {
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
+/*PRINCIPIO de navLateral*/
 .navLateral {
     height: 6%;
-    width:150px;
-    /*width: fit-content;*/
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0);
     overflow-y: auto;
-    /*transition: 5s;*/
     padding-top: 1%;
     margin-right: 25%;
-}
-
-
-.navLateral * {
-    color: rgba(255, 255, 255, 0);
 }
 
 #indiceNav{
     color: white;
     position: fixed;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     width: fit-content;
 }
 
-.navLateral:hover * {
+.navLateral:hover a.navHTML {
     color: rgba(241, 101, 45, 0.5);
+}
+
+.navLateral:hover a.navCSS {
+    color: rgba(74, 178, 216, 0.5);
 }
 
 .navLateral::-webkit-scrollbar {
@@ -46,24 +44,21 @@ body {
 }
   
 .navLateral a {
+    color: rgba(255, 255, 255, 0);
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     display: block;
-    /*transition: 0.3s;*/
 }
-  
-/*.navLateral a:hover {
-    color: gray;
-}*/
-
-/*.navLateral a.navHTML {
-    color: rgba(241, 101, 45, 0.5);
-}*/
 
 .navLateral a.navHTML:hover {
     color: rgba(241, 101, 45, 1);
 }
+
+.navLateral a.navCSS:hover {
+    color: rgba(74, 178, 216, 1);
+}
+/*FINAL de navLateral*/
 
 
 ::-moz-selection { /* Texto seleccionado en firefox */
