@@ -6,13 +6,14 @@ body {
 
 .navLateral {
     height: 6%;
-    width: 250px;
+    width:150px;
+    /*width: fit-content;*/
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0);
-    overflow-x: hidden;
+    overflow-y: auto;
     /*transition: 5s;*/
     padding-top: 1%;
     margin-right: 25%;
@@ -25,14 +26,13 @@ body {
 
 #indiceNav{
     color: white;
-    position: static;
+    position: fixed;
     background-color: black;
     width: fit-content;
 }
 
 .navLateral:hover * {
     color: rgba(241, 101, 45, 0.5);
-    
 }
 
 .navLateral::-webkit-scrollbar {
