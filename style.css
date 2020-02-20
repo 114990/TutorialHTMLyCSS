@@ -33,7 +33,6 @@ body {
 
 .navLateral:hover * {
     color: rgba(241, 101, 45, 0.5);
-    transition: 3s;
 }
 
 .navLateral::-webkit-scrollbar {
@@ -44,7 +43,6 @@ body {
     width: 250px;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
-    transition: 0.75s;
 }
   
 .navLateral a {
