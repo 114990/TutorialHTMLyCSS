@@ -180,7 +180,6 @@ hr {
 
 .codigoEjemploHTML {
     color: #facab7; /*~30% más claro que el color HTML principal*/
-    
 }
 
 pre.codigoEjemploHTML {
@@ -188,6 +187,7 @@ pre.codigoEjemploHTML {
     border: 1px solid white;
     padding-left: 15px;
     background-color: #481805; /*~40% más oscuro que el color HTML principal*/
+    overflow-x: auto;
 }
 
 .codigoEjemploHTML::-moz-selection { /* Texto seleccionado en firefox */
@@ -219,6 +219,7 @@ pre.codigoEjemploCSS {
     border: 1px solid white;
     padding-left: 15px;
     background-color: #0d323f; /*~40% más oscuro que el color HTML principal*/
+    overflow-x: auto;
 }
 
 #imgElementosSemanticos {
