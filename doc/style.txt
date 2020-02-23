@@ -62,11 +62,6 @@ body {
 
 @media print
 {    
-    body, body * {
-        color: black;
-        font-size: 1.5em;
-    }
-
     .navLateral, .navLateral *
     {
         display: none !important;
